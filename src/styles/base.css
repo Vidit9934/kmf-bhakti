@@ -1,0 +1,359 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Nothing on the page can be selected, highlighted by double-click, or dragged out.
+   Form fields are the one exception: people must be able to type, edit and paste in them. */
+*,
+*::before,
+*::after {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+
+input,
+textarea,
+select {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+::selection {
+  background: transparent;
+}
+
+input::selection,
+textarea::selection {
+  background: rgba(227, 162, 26, 0.45);
+}
+
+img,
+svg,
+a {
+  -webkit-user-drag: none;
+  user-drag: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--ivory);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  line-height: 1.4;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+main:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.band--ivory :focus-visible,
+.band--peach :focus-visible,
+.header--solid :focus-visible {
+  outline-color: var(--maroon);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: fixed;
+  left: 1rem;
+  top: -5rem;
+  z-index: 100;
+  padding: 0.75rem 1.25rem;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #2a1203;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.2s var(--ease);
+}
+
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* ---------- type ---------- */
+.title {
+  font-weight: 300;
+  font-size: clamp(2.1rem, 4.8vw, 3.8rem);
+  line-height: 1.14;
+  letter-spacing: 0.005em;
+  text-wrap: balance;
+}
+
+.title--light {
+  color: var(--on-dark);
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: clamp(1.5rem, 2.8vw, 2.1rem);
+  line-height: 1.25;
+  margin-bottom: 1.75rem;
+}
+
+.subtitle--left {
+  margin-top: 2.75rem;
+}
+
+.lead {
+  max-width: 46ch;
+  margin-top: 1.25rem;
+  font-size: clamp(1.1rem, 1.7vw, 1.3rem);
+  line-height: 1.6;
+  color: var(--fg-soft, var(--muted));
+}
+
+.lead--light {
+  color: var(--on-dark-soft);
+}
+
+.lead--big {
+  margin-top: 0;
+  max-width: 40ch;
+  font-size: clamp(1.3rem, 2.4vw, 1.75rem);
+  color: var(--ink);
+}
+
+.prose {
+  max-width: 62ch;
+  margin-top: 1.1rem;
+  color: var(--fg-soft, var(--muted));
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.1rem 0.7rem;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #2a1203;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.badge--lg {
+  margin-left: 1rem;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+/* ---------- buttons and links ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3rem;
+  padding: 0.5rem 1.75rem;
+  border: 1.5px solid transparent;
+  border-radius: 999px;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  transition:
+    transform 0.25s var(--ease),
+    background-color 0.2s,
+    color 0.2s,
+    border-color 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn--lg {
+  min-height: 3.5rem;
+  padding-inline: 2.25rem;
+  font-size: 1.15rem;
+}
+
+.btn--gold {
+  background: var(--gold);
+  color: #2a1203;
+}
+
+.btn--gold:hover {
+  background: #f1b436;
+}
+
+.btn--kesar {
+  background: var(--kesar);
+  color: #fff;
+}
+
+.btn--kesar:hover {
+  background: #b53f16;
+}
+
+.btn--maroon {
+  background: var(--maroon);
+  color: #fff;
+}
+
+.btn--maroon:hover {
+  background: var(--maroon-deep);
+}
+
+.btn--outline {
+  border-color: var(--maroon);
+  color: var(--maroon);
+}
+
+.btn--outline:hover {
+  background: var(--maroon);
+  color: #fff;
+}
+
+.btn--ghost {
+  border-color: rgba(255, 255, 255, 0.7);
+  color: #fff;
+}
+
+.btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.btn[disabled] {
+  opacity: 0.65;
+  cursor: progress;
+  transform: none;
+}
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--gold);
+  font-size: 1.15rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.text-link svg {
+  width: 1.2rem;
+  height: 1.2rem;
+  transition: transform 0.25s var(--ease);
+}
+
+.text-link:hover svg {
+  transform: translateX(4px);
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: clamp(2rem, 4vw, 3rem);
+}
+
+/* Devanagari must not be letter-spaced, and needs more line height. */
+:lang(hi) {
+  letter-spacing: 0 !important;
+}
+
+html[lang='hi'] body {
+  font-size: 1.125rem;
+  line-height: 1.85;
+}
+
+html[lang='hi'] :is(h1, h2, h3, .title, .subtitle) {
+  line-height: 1.4;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Soft cross-fade between pages where View Transitions are supported. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.35s;
+}

@@ -1,0 +1,105 @@
+.field-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1.25rem;
+}
+
+.field {
+  margin-bottom: 1.25rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.field input,
+.field select,
+.field textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(250, 246, 238, 0.35);
+  border-radius: 0.8rem;
+  background: rgba(250, 246, 238, 0.09);
+  color: var(--on-dark);
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.field textarea {
+  min-height: 9rem;
+  resize: vertical;
+}
+
+.field input:hover,
+.field select:hover,
+.field textarea:hover {
+  border-color: rgba(250, 246, 238, 0.6);
+}
+
+.field input:focus,
+.field select:focus,
+.field textarea:focus {
+  border-color: var(--gold);
+  background: rgba(250, 246, 238, 0.14);
+}
+
+.field select {
+  appearance: none;
+  padding-right: 2.75rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23faf6ee' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+
+.field select option {
+  color: var(--ink);
+  background: var(--ivory);
+}
+
+.field [aria-invalid='true'] {
+  border-color: #ff9ea3;
+}
+
+.field__error,
+.form-error {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  color: #ffc2c5;
+}
+
+.form-error {
+  margin: 0 0 1.25rem;
+}
+
+.form-error a {
+  color: inherit;
+}
+
+.form-submit {
+  width: 100%;
+}
+
+.form-done {
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+  padding-block: 1rem;
+}
+
+.form-done p {
+  color: var(--on-dark-soft);
+}
+
+.form-done .form-done__title {
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--gold);
+}
+
+@media (max-width: 40rem) {
+  .field-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
