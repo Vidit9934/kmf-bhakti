@@ -18,14 +18,14 @@ All photographs are free to use under the [Pexels License](https://www.pexels.co
 | temple-golden-spire.webp | A P | https://www.pexels.com/photo/15142391/ |
 | temple-spires.webp | dharamveer | https://www.pexels.com/photo/7152003/ |
 | stage-golden-columns.webp | BANU FILM ADS | https://www.pexels.com/photo/14395559/ |
-| svc-live-broadcasting.webp | Genie Music | https://www.pexels.com/photo/17189845/ |
+| svc-live-broadcasting.webp | Chalta Phirta | https://www.pexels.com/photo/20466664/ |
 | svc-religious-events.webp | SOMUVISION | https://www.pexels.com/photo/12432503/ |
-| svc-celebrity-management.webp | Kerim Isazade | https://www.pexels.com/photo/31129059/ |
-| svc-social-media.webp | cottonbro studio | https://www.pexels.com/photo/5082579/ |
-| svc-video-editing.webp | minhphuc .workspace | https://www.pexels.com/photo/28955777/ |
-| svc-audio-production.webp | Tima Miroshnichenko | https://www.pexels.com/photo/4988132/ |
-| svc-song-promotion.webp | Ivan S | https://www.pexels.com/photo/4162581/ |
-| svc-song-distribution.webp | Adeniji Abdullahi A | https://www.pexels.com/photo/9799543/ |
+| svc-celebrity-management.webp | Anil Sharma | https://www.pexels.com/photo/34950799/ |
+| svc-social-media.webp | Soumalya Halder | https://www.pexels.com/photo/39293937/ |
+| svc-video-editing.webp | Krishnendu Biswas | https://www.pexels.com/photo/30770627/ |
+| svc-audio-production.webp | Mehmet Turgut Kirkgoz | https://www.pexels.com/photo/16766079/ |
+| svc-song-promotion.webp | Rohit Priyadarshi | https://www.pexels.com/photo/37060449/ |
+| svc-song-distribution.webp | Dinesh lens | https://www.pexels.com/photo/32544678/ |
 | eq-cameras.webp | Badri Rai | https://www.pexels.com/photo/8704971/ |
 | eq-camera-rig.webp | dp singh Bhullar | https://www.pexels.com/photo/28532582/ |
 | eq-drones.webp | Ahmed | https://www.pexels.com/photo/18079757/ |
