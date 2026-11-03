@@ -11,6 +11,7 @@ import Contact from './pages/Contact';
 import Credits from './pages/Credits';
 import Equipment from './pages/Equipment';
 import Home from './pages/Home';
+import LegalPage from './pages/LegalPage';
 import NotFound from './pages/NotFound';
 import ServiceDetail from './pages/ServiceDetail';
 import Services from './pages/Services';
@@ -25,6 +26,8 @@ const PAGE_TITLES = {
   '/testimonials': 'page.testimonials',
   '/contact': 'page.contact',
   '/credits': 'page.credits',
+  '/privacy': 'page.privacy',
+  '/terms': 'page.terms',
 };
 
 // On every route change: back to the top and a page-specific document title.
@@ -76,6 +79,8 @@ export default function App() {
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/credits" element={<Credits />} />
+          <Route path="/privacy" element={<LegalPage doc="privacy" />} />
+          <Route path="/terms" element={<LegalPage doc="terms" />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

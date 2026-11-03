@@ -64,7 +64,11 @@ export default function Footer() {
           <span>
             © {new Date().getFullYear()} {pick({ en: brand.name, hi: brand.nameHi })}. {t('footer.rights')}
           </span>
-          <Link to="/credits">{t('footer.credits')}</Link>
+          <nav className="footer__legal-links" aria-label={t('footer.legal')}>
+            <Link to="/privacy">{t('footer.privacy')}</Link>
+            <Link to="/terms">{t('footer.terms')}</Link>
+            <Link to="/credits">{t('footer.credits')}</Link>
+          </nav>
         </div>
       </div>
     </footer>

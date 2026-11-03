@@ -944,3 +944,42 @@
     text-align: left;
   }
 }
+
+/* Privacy Policy and Terms */
+.legal {
+  max-width: 70ch;
+}
+
+.legal__updated {
+  margin-bottom: 2rem;
+  font-size: 0.98rem;
+  opacity: 0.75;
+}
+
+.legal section + section {
+  margin-top: 2rem;
+}
+
+.legal h2 {
+  margin-bottom: 0.6rem;
+  font-size: 1.35rem;
+}
+
+.legal p + p,
+.legal p + ul {
+  margin-top: 0.8rem;
+}
+
+.legal ul {
+  padding-left: 1.3rem;
+  list-style: disc;
+}
+
+.legal li + li {
+  margin-top: 0.4rem;
+}
+
+.legal a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

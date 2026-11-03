@@ -31,8 +31,8 @@ export const photos = {
   social: photo('svc-social-media', 1000, 1500, 'Soumalya Halder', 39293937, { en: 'A hand holding a phone that shows an image of Goddess Durga', hi: 'फ़ोन पर माँ दुर्गा की छवि दिखाता हाथ' }, 'center 55%'),
   editing: photo('svc-video-editing', 1000, 1500, 'Krishnendu Biswas', 30770627, { en: 'Priests raising aarti flames at a Ganga Aarti', hi: 'गंगा आरती में ज्योति उठाए पुजारी' }, 'center 40%'),
   audio: photo('svc-audio-production', 1500, 1000, 'Mehmet Turgut Kirkgoz', 16766079, { en: 'A harmonium player leading bhajans at a satsang', hi: 'सत्संग में भजन गाते हारमोनियम वादक' }, '75% center'),
-  promotion: photo('svc-song-promotion', 1000, 1328, 'Rohit Priyadarshi', 37060449, { en: 'An ancient temple at dusk framed in a phone screen', hi: 'फ़ोन की स्क्रीन में संध्या के समय प्राचीन मंदिर' }, 'center 40%'),
-  distribution: photo('svc-song-distribution', 1000, 1500, 'Dinesh lens', 32544678, { en: 'A phone filming a temple festival crowd', hi: 'मंदिर उत्सव की भीड़ को फ़िल्माता फ़ोन' }, 'center 35%'),
+  promotion: photo('svc-song-promotion', 900, 1419, 'yatrikyash', 34738143, { en: 'A saffron-robed devotee playing the harmonium by the ghats', hi: 'घाट पर हारमोनियम बजाते भगवा वस्त्रधारी भक्त' }, 'center 45%'),
+  distribution: photo('svc-song-distribution', 1500, 1000, 'rahulp9800', 14477056, { en: 'Hands playing the keys of a wooden harmonium', hi: 'लकड़ी के हारमोनियम की कुंजियों पर चलते हाथ' }, 'center 40%'),
 
   cameras: photo('eq-cameras', 1000, 1500, 'Badri Rai', 8704971, { en: 'A cinema camera with a prime lens', hi: 'प्राइम लेंस वाला सिनेमा कैमरा' }, 'center 45%'),
   rig: photo('eq-camera-rig', 1500, 1000, 'dp singh Bhullar', 28532582, { en: 'A professional camera rig on a stand', hi: 'स्टैंड पर लगा प्रोफ़ेशनल कैमरा रिग' }),

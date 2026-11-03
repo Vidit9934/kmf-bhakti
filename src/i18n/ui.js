@@ -94,6 +94,16 @@ export const ui = {
     'footer.follow': 'Follow us',
     'footer.rights': 'All rights reserved.',
     'footer.credits': 'Photo credits',
+    'footer.privacy': 'Privacy Policy',
+    'footer.terms': 'Terms & Conditions',
+    'footer.legal': 'Legal',
+
+    'privacy.title': 'Privacy Policy',
+    'privacy.lead': 'What we collect through this website, how we use it, and the choices you have.',
+    'terms.title': 'Terms & Conditions',
+    'terms.lead': 'The terms that apply when you use this website or work with KMF Media Bhakti.',
+    'legal.updated': 'Last updated',
+    'legal.contact': 'Contact us',
 
     'credits.title': 'Photo credits',
     'credits.lead': 'The photographs on this site are free-licence stock images from Pexels. We thank the photographers. They are not KMF staff or events.',
@@ -109,6 +119,8 @@ export const ui = {
     'page.testimonials': 'Testimonials',
     'page.contact': 'Contact',
     'page.credits': 'Photo credits',
+    'page.privacy': 'Privacy Policy',
+    'page.terms': 'Terms & Conditions',
     'page.notfound': 'Page not found',
   },
   hi: {
@@ -204,6 +216,16 @@ export const ui = {
     'footer.follow': 'हमें फ़ॉलो करें',
     'footer.rights': 'सर्वाधिकार सुरक्षित।',
     'footer.credits': 'फ़ोटो श्रेय',
+    'footer.privacy': 'गोपनीयता नीति',
+    'footer.terms': 'नियम और शर्तें',
+    'footer.legal': 'कानूनी',
+
+    'privacy.title': 'गोपनीयता नीति',
+    'privacy.lead': 'इस वेबसाइट के माध्यम से हम क्या जानकारी लेते हैं, उसका उपयोग कैसे करते हैं और आपके पास क्या विकल्प हैं।',
+    'terms.title': 'नियम और शर्तें',
+    'terms.lead': 'इस वेबसाइट के उपयोग या केएमएफ मीडिया भक्ति के साथ काम करने पर लागू होने वाली शर्तें।',
+    'legal.updated': 'अंतिम अद्यतन',
+    'legal.contact': 'हमसे संपर्क करें',
 
     'credits.title': 'फ़ोटो श्रेय',
     'credits.lead': 'इस साइट की तस्वीरें Pexels की निःशुल्क-लाइसेंस स्टॉक तस्वीरें हैं। हम फ़ोटोग्राफ़रों के आभारी हैं। ये केएमएफ के स्टाफ़ या आयोजन नहीं हैं।',
@@ -219,6 +241,8 @@ export const ui = {
     'page.testimonials': 'प्रशंसापत्र',
     'page.contact': 'संपर्क',
     'page.credits': 'फ़ोटो श्रेय',
+    'page.privacy': 'गोपनीयता नीति',
+    'page.terms': 'नियम और शर्तें',
     'page.notfound': 'पृष्ठ नहीं मिला',
   },
 };
