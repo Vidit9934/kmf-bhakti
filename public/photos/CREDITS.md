@@ -24,8 +24,8 @@ All photographs are free to use under the [Pexels License](https://www.pexels.co
 | svc-social-media.webp | Soumalya Halder | https://www.pexels.com/photo/39293937/ |
 | svc-video-editing.webp | Krishnendu Biswas | https://www.pexels.com/photo/30770627/ |
 | svc-audio-production.webp | Mehmet Turgut Kirkgoz | https://www.pexels.com/photo/16766079/ |
-| svc-song-promotion.webp | yatrikyash | https://www.pexels.com/photo/34738143/ |
-| svc-song-distribution.webp | rahulp9800 | https://www.pexels.com/photo/14477056/ |
+| svc-song-promotion.webp | Dmitry | https://www.pexels.com/photo/11711031/ |
+| svc-song-distribution.webp | Pixabay | https://www.pexels.com/photo/164853/ |
 | eq-cameras.webp | Badri Rai | https://www.pexels.com/photo/8704971/ |
 | eq-camera-rig.webp | dp singh Bhullar | https://www.pexels.com/photo/28532582/ |
 | eq-drones.webp | Ahmed | https://www.pexels.com/photo/18079757/ |
